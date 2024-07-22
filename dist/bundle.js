@@ -323,22 +323,29 @@ ___CSS_LOADER_EXPORT___.push([module.id, `body {
   background: url(${___CSS_LOADER_URL_REPLACEMENT_0___}) center/cover;
   height: 100vh;
   width: 100%;
+  margin: auto;
+
 }
 
 nav {
   background-color: var(--secondary-accent-color);
+  height: 47px;
+  width: 100%;
+  margin: auto;
 }
 
-.dog-icon {
-  width: 50px;
+.dogIcon {
+  width: 30px;
+  margin: 8px;
 }
 
-.options{
-: var(--triary-text-color);
-}
+/*.options{*/
+/*!*: var(--triary-text-color);*!*/
+/*  padding-left: 155vh;*/
+/*}*/
 
 .how{
-
+  margin-right: 20px;
 }
 
 .what{
@@ -346,8 +353,24 @@ nav {
 }
 
 .facts{
+  margin-left: 20px;
+}
 
-}`, "",{"version":3,"sources":["webpack://./src/css/index.css"],"names":[],"mappings":"AAEA;EACE,gEAA0D;EAC1D,aAAa;EACb,WAAW;AACb;;AAEA;EACE,+CAA+C;AACjD;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,wBAAwB;AAC1B;;AAEA;;AAEA;;AAEA;;AAEA;;AAEA;;AAEA","sourcesContent":["@import 'variables';\n\nbody {\n  background: url('../../dist/images/park.jpg') center/cover;\n  height: 100vh;\n  width: 100%;\n}\n\nnav {\n  background-color: var(--secondary-accent-color);\n}\n\n.dog-icon {\n  width: 50px;\n}\n\n.options{\n: var(--triary-text-color);\n}\n\n.how{\n\n}\n\n.what{\n\n}\n\n.facts{\n\n}"],"sourceRoot":""}]);
+
+.mainPup{
+  display: inline-grid;
+  margin-left: 42%;
+  text-align: center;
+}
+
+.hereDog{
+
+}
+
+.mainPupIcon{
+  border-radius: 50%;
+  display: inline-block;
+}`, "",{"version":3,"sources":["webpack://./src/css/index.css"],"names":[],"mappings":"AAEA;EACE,gEAA0D;EAC1D,aAAa;EACb,WAAW;EACX,YAAY;;AAEd;;AAEA;EACE,+CAA+C;EAC/C,YAAY;EACZ,WAAW;EACX,YAAY;AACd;;AAEA;EACE,WAAW;EACX,WAAW;AACb;;AAEA,YAAY;AACZ,kCAAkC;AAClC,yBAAyB;AACzB,IAAI;;AAEJ;EACE,kBAAkB;AACpB;;AAEA;;AAEA;;AAEA;EACE,iBAAiB;AACnB;;;AAGA;EACE,oBAAoB;EACpB,gBAAgB;EAChB,kBAAkB;AACpB;;AAEA;;AAEA;;AAEA;EACE,kBAAkB;EAClB,qBAAqB;AACvB","sourcesContent":["@import 'variables';\n\nbody {\n  background: url('../../dist/images/park.jpg') center/cover;\n  height: 100vh;\n  width: 100%;\n  margin: auto;\n\n}\n\nnav {\n  background-color: var(--secondary-accent-color);\n  height: 47px;\n  width: 100%;\n  margin: auto;\n}\n\n.dogIcon {\n  width: 30px;\n  margin: 8px;\n}\n\n/*.options{*/\n/*!*: var(--triary-text-color);*!*/\n/*  padding-left: 155vh;*/\n/*}*/\n\n.how{\n  margin-right: 20px;\n}\n\n.what{\n\n}\n\n.facts{\n  margin-left: 20px;\n}\n\n\n.mainPup{\n  display: inline-grid;\n  margin-left: 42%;\n  text-align: center;\n}\n\n.hereDog{\n\n}\n\n.mainPupIcon{\n  border-radius: 50%;\n  display: inline-block;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
