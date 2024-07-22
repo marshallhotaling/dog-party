@@ -331,7 +331,23 @@ nav {
 
 .dog-icon {
   width: 50px;
-}`, "",{"version":3,"sources":["webpack://./src/css/index.css"],"names":[],"mappings":"AAEA;EACE,gEAA0D;EAC1D,aAAa;EACb,WAAW;AACb;;AAEA;EACE,+CAA+C;AACjD;;AAEA;EACE,WAAW;AACb","sourcesContent":["@import 'variables';\n\nbody {\n  background: url('../../dist/images/park.jpg') center/cover;\n  height: 100vh;\n  width: 100%;\n}\n\nnav {\n  background-color: var(--secondary-accent-color);\n}\n\n.dog-icon {\n  width: 50px;\n}"],"sourceRoot":""}]);
+}
+
+.options{
+: var(--triary-text-color);
+}
+
+.how{
+
+}
+
+.what{
+
+}
+
+.facts{
+
+}`, "",{"version":3,"sources":["webpack://./src/css/index.css"],"names":[],"mappings":"AAEA;EACE,gEAA0D;EAC1D,aAAa;EACb,WAAW;AACb;;AAEA;EACE,+CAA+C;AACjD;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,wBAAwB;AAC1B;;AAEA;;AAEA;;AAEA;;AAEA;;AAEA;;AAEA","sourcesContent":["@import 'variables';\n\nbody {\n  background: url('../../dist/images/park.jpg') center/cover;\n  height: 100vh;\n  width: 100%;\n}\n\nnav {\n  background-color: var(--secondary-accent-color);\n}\n\n.dog-icon {\n  width: 50px;\n}\n\n.options{\n: var(--triary-text-color);\n}\n\n.how{\n\n}\n\n.what{\n\n}\n\n.facts{\n\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -467,10 +483,15 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, `:root {
   --main-accent-color: #3F8DA8;
   --secondary-accent-color: #92E0E5;
+  --main-text-color: #555555;
+  --secondary-text-color: #4D93AE;
+  --triary-text-color: #FFFFFF;
+
+
 }
 
 
-`, "",{"version":3,"sources":["webpack://./src/css/variables.css"],"names":[],"mappings":"AAAA;EACE,4BAA4B;EAC5B,iCAAiC;AACnC","sourcesContent":[":root {\n  --main-accent-color: #3F8DA8;\n  --secondary-accent-color: #92E0E5;\n}\n\n\n"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./src/css/variables.css"],"names":[],"mappings":"AAAA;EACE,4BAA4B;EAC5B,iCAAiC;EACjC,0BAA0B;EAC1B,+BAA+B;EAC/B,4BAA4B;;;AAG9B","sourcesContent":[":root {\n  --main-accent-color: #3F8DA8;\n  --secondary-accent-color: #92E0E5;\n  --main-text-color: #555555;\n  --secondary-text-color: #4D93AE;\n  --triary-text-color: #FFFFFF;\n\n\n}\n\n\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
