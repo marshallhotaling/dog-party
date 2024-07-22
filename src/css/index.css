@@ -10,7 +10,7 @@ body {
 
 .nav {
   background-color: var(--secondary-accent-color);
-  height: 47px;
+  height: 48px;
   width: 100%;
   position: relative;
   text-align: center;
@@ -43,10 +43,11 @@ body {
 }
 
 .options{
-  /*: var(--triary-text-color);*/
-  position: fixed;
-  right: 50px;
-  top: 13px;
+  font-family: ;
+  position: relative;
+  float: right;
+  margin-right: 50px;
+  margin-top: 10px;
 }
 
 .lowerSection {
@@ -71,6 +72,7 @@ body {
   background: url('../../dist/images/park.jpg') center/cover;
   text-align: center;
   height: 500px;
+  margin-top: ;
 }
 .whatAreDogs {
   display: block;
@@ -78,12 +80,58 @@ body {
   height: 35px;
   background-color: var(--triary-text-color);
   border-color: green;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hereDog{
-display: block;
+  display: block;
 }
 
 .mainPupIcon{
   border-radius: 50%;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.howPup{
+  display: inline-block;
+  position: relative;
+  margin-top: 10px;
+}
+.howLowerSection{
+  display: block;
+}
+.howPupIcon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.howDiscription{
+  text-align: center;
+  display: block;
+}
+.howButton{
+  display: block;
+}
+
+.bottomSection{
+  margin-top: 50px;
+  text-align: center;
+  background-color: #3F8DA8;
+}
+.learnAboutDogsOnlineSection{
+  display: block;
+}
+.sMIG{
+  display: inline-block;
+}
+.spacer {
+  display: block;
+height: 50px;
+}
+.parentDiv {
+  background-color: var(--triary-text-color);
+  margin-top: -130px;
+  z-index: 10;
 }
