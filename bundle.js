@@ -320,57 +320,221 @@ ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_variables_css__WE
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_3___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `body {
-  background: url(${___CSS_LOADER_URL_REPLACEMENT_0___}) center/cover;
-  height: 100vh;
-  width: 100%;
-  margin: auto;
+  /*background: url('../../dist/images/park.jpg') center/cover;*/
+  /*height: 100vh;*/
+  /*width: 100%;*/
+  /*margin: auto;*/
 
 }
 
-nav {
+.nav {
   background-color: var(--secondary-accent-color);
-  height: 47px;
+  height: 48px;
   width: 100%;
-  margin: auto;
+  position: relative;
+  text-align: center;
+  /*margin: auto;*/
+}
+
+.mainWrapper {
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  display: block;
+}
+
+.insideView {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  overflow-y: auto;
+  padding-right: 150px;
+  text-align: center;
 }
 
 .dogIcon {
   width: 30px;
-  margin: 8px;
+  margin: 10px;
+  margin-left: 5px;
+  float: left;
 }
 
-/*.options{*/
-/*!*: var(--triary-text-color);*!*/
-/*  padding-left: 155vh;*/
-/*}*/
+.options{
+  color: #FFFFFF;
+  font-family: "Raleway", sans-serif;
+  position: relative;
+  float: right;
+  margin-right: 50px;
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+
 
 .how{
-  margin-right: 20px;
 }
 
 .what{
-
+margin-left: 30px;
+  margin-right: 30px;
 }
 
 .facts{
-  margin-left: 20px;
 }
 
-
 .mainPup{
-  display: inline-grid;
-  margin-left: 42%;
+  background: url(${___CSS_LOADER_URL_REPLACEMENT_0___}) center/cover;
   text-align: center;
+  height: 500px;
+  padding-top: 47px;
 }
 
 .hereDog{
+  display: block;
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  padding-bottom: 30px;
+
 
 }
 
 .mainPupIcon{
   border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-color:  #3F8DA8;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.whatAreDogs {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: #3F8DA8;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  width: 128px;
+  height: 30px;
+  border-color: #3F8DA8;
+  border-style: solid;
+  border-width: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+
+}
+
+
+.parentDiv {
+  margin-top: -130px;
+  z-index: 10;
+}
+
+.lowerSection {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.indPups{
   display: inline-block;
-}`, "",{"version":3,"sources":["webpack://./src/css/index.css"],"names":[],"mappings":"AAEA;EACE,gEAA0D;EAC1D,aAAa;EACb,WAAW;EACX,YAAY;;AAEd;;AAEA;EACE,+CAA+C;EAC/C,YAAY;EACZ,WAAW;EACX,YAAY;AACd;;AAEA;EACE,WAAW;EACX,WAAW;AACb;;AAEA,YAAY;AACZ,kCAAkC;AAClC,yBAAyB;AACzB,IAAI;;AAEJ;EACE,kBAAkB;AACpB;;AAEA;;AAEA;;AAEA;EACE,iBAAiB;AACnB;;;AAGA;EACE,oBAAoB;EACpB,gBAAgB;EAChB,kBAAkB;AACpB;;AAEA;;AAEA;;AAEA;EACE,kBAAkB;EAClB,qBAAqB;AACvB","sourcesContent":["@import 'variables';\n\nbody {\n  background: url('../../dist/images/park.jpg') center/cover;\n  height: 100vh;\n  width: 100%;\n  margin: auto;\n\n}\n\nnav {\n  background-color: var(--secondary-accent-color);\n  height: 47px;\n  width: 100%;\n  margin: auto;\n}\n\n.dogIcon {\n  width: 30px;\n  margin: 8px;\n}\n\n/*.options{*/\n/*!*: var(--triary-text-color);*!*/\n/*  padding-left: 155vh;*/\n/*}*/\n\n.how{\n  margin-right: 20px;\n}\n\n.what{\n\n}\n\n.facts{\n  margin-left: 20px;\n}\n\n\n.mainPup{\n  display: inline-grid;\n  margin-left: 42%;\n  text-align: center;\n}\n\n.hereDog{\n\n}\n\n.mainPupIcon{\n  border-radius: 50%;\n  display: inline-block;\n}"],"sourceRoot":""}]);
+  position: relative;
+  margin-top: 10px;
+  max-width: 540px;
+
+}
+.headingLowerSection{
+  display: block;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+  margin-top: 45px;
+  margin-bottom: 28px;
+
+}
+.lowerSectionPup{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #3F8DA8;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 50%;
+  width: 179px;
+}
+
+.lowerDiscription{
+  font-family: "Raleway", sans-serif;
+}
+.lowerButton{
+  margin-top: 100px;
+  background-color: #FFFFFF;
+  color: #3F8DA8;
+  width: 128px;
+  height: 30px;
+  border-color: #3F8DA8;
+  border-style: solid;
+  border-width: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: larger;
+}
+
+.bottomSection{
+  margin-top: 50px;
+  text-align: center;
+  background-color: #3F8DA8;
+}
+.learnAboutDogsOnlineSection{
+  display: block;
+  padding-top: 18px;
+  font-family: "Raleway", sans-serif;
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: 100;
+
+}
+.sMIG{
+  display: inline-block;
+  padding-top: 37px;
+
+}
+.twitter{
+  padding-left: 47px;
+  padding-right: 47px;
+}
+.instagram{
+  padding-right: 47px;
+}
+
+.gitHubLink{
+  display: block;
+  font-family: "Raleway", sans-serif;
+  color: #F9FCFC;
+  text-decoration: underline;
+  font-size: 25px;
+  padding-top: 25px;
+
+}
+.spacer {
+  display: block;
+height: 50px;
+}
+
+`, "",{"version":3,"sources":["webpack://./src/css/index.css"],"names":[],"mappings":"AAEA;EACE,8DAA8D;EAC9D,iBAAiB;EACjB,eAAe;EACf,gBAAgB;;AAElB;;AAEA;EACE,+CAA+C;EAC/C,YAAY;EACZ,WAAW;EACX,kBAAkB;EAClB,kBAAkB;EAClB,gBAAgB;AAClB;;AAEA;EACE,MAAM;EACN,QAAQ;EACR,OAAO;EACP,SAAS;EACT,eAAe;EACf,cAAc;AAChB;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,cAAc;EACd,kBAAkB;EAClB,gBAAgB;EAChB,oBAAoB;EACpB,kBAAkB;AACpB;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,gBAAgB;EAChB,WAAW;AACb;;AAEA;EACE,cAAc;EACd,kCAAkC;EAClC,kBAAkB;EAClB,YAAY;EACZ,kBAAkB;EAClB,gBAAgB;EAChB,gBAAgB;EAChB,eAAe;AACjB;;;;AAIA;AACA;;AAEA;AACA,iBAAiB;EACf,kBAAkB;AACpB;;AAEA;AACA;;AAEA;EACE,gEAA0D;EAC1D,kBAAkB;EAClB,aAAa;EACb,iBAAiB;AACnB;;AAEA;EACE,cAAc;EACd,cAAc;EACd,kCAAkC;EAClC,gBAAgB;EAChB,eAAe;EACf,oBAAoB;;;AAGtB;;AAEA;EACE,kBAAkB;EAClB,cAAc;EACd,iBAAiB;EACjB,kBAAkB;EAClB,sBAAsB;EACtB,mBAAmB;EACnB,iBAAiB;AACnB;;AAEA;EACE,kCAAkC;EAClC,kBAAkB;EAClB,cAAc;EACd,yBAAyB;EACzB,aAAa;EACb,uBAAuB;EACvB,8BAA8B;EAC9B,YAAY;EACZ,YAAY;EACZ,qBAAqB;EACrB,mBAAmB;EACnB,iBAAiB;EACjB,iBAAiB;EACjB,kBAAkB;EAClB,gBAAgB;;AAElB;;;AAGA;EACE,kBAAkB;EAClB,WAAW;AACb;;AAEA;EACE,iBAAiB;EACjB,kBAAkB;AACpB;;AAEA;EACE,qBAAqB;EACrB,kBAAkB;EAClB,gBAAgB;EAChB,gBAAgB;;AAElB;AACA;EACE,cAAc;EACd,kCAAkC;EAClC,eAAe;EACf,gBAAgB;EAChB,gBAAgB;EAChB,mBAAmB;;AAErB;AACA;;EAEE,cAAc;EACd,iBAAiB;EACjB,kBAAkB;EAClB,qBAAqB;EACrB,mBAAmB;EACnB,iBAAiB;EACjB,kBAAkB;EAClB,YAAY;AACd;;AAEA;EACE,kCAAkC;AACpC;AACA;EACE,iBAAiB;EACjB,yBAAyB;EACzB,cAAc;EACd,YAAY;EACZ,YAAY;EACZ,qBAAqB;EACrB,mBAAmB;EACnB,iBAAiB;EACjB,kBAAkB;EAClB,aAAa;EACb,uBAAuB;EACvB,8BAA8B;EAC9B,kBAAkB;EAClB,iBAAiB;EACjB,iBAAiB;AACnB;;AAEA;EACE,gBAAgB;EAChB,kBAAkB;EAClB,yBAAyB;AAC3B;AACA;EACE,cAAc;EACd,iBAAiB;EACjB,kCAAkC;EAClC,cAAc;EACd,eAAe;EACf,gBAAgB;;AAElB;AACA;EACE,qBAAqB;EACrB,iBAAiB;;AAEnB;AACA;EACE,kBAAkB;EAClB,mBAAmB;AACrB;AACA;EACE,mBAAmB;AACrB;;AAEA;EACE,cAAc;EACd,kCAAkC;EAClC,cAAc;EACd,0BAA0B;EAC1B,eAAe;EACf,iBAAiB;;AAEnB;AACA;EACE,cAAc;AAChB,YAAY;AACZ","sourcesContent":["@import 'variables';\n\nbody {\n  /*background: url('../../dist/images/park.jpg') center/cover;*/\n  /*height: 100vh;*/\n  /*width: 100%;*/\n  /*margin: auto;*/\n\n}\n\n.nav {\n  background-color: var(--secondary-accent-color);\n  height: 48px;\n  width: 100%;\n  position: relative;\n  text-align: center;\n  /*margin: auto;*/\n}\n\n.mainWrapper {\n  top: 0;\n  right: 0;\n  left: 0;\n  bottom: 0;\n  position: fixed;\n  display: block;\n}\n\n.insideView {\n  width: 100%;\n  height: 100%;\n  display: block;\n  position: relative;\n  overflow-y: auto;\n  padding-right: 150px;\n  text-align: center;\n}\n\n.dogIcon {\n  width: 30px;\n  margin: 10px;\n  margin-left: 5px;\n  float: left;\n}\n\n.options{\n  color: #FFFFFF;\n  font-family: \"Raleway\", sans-serif;\n  position: relative;\n  float: right;\n  margin-right: 50px;\n  margin-top: 12px;\n  font-weight: 500;\n  font-size: 20px;\n}\n\n\n\n.how{\n}\n\n.what{\nmargin-left: 30px;\n  margin-right: 30px;\n}\n\n.facts{\n}\n\n.mainPup{\n  background: url('../../dist/images/park.jpg') center/cover;\n  text-align: center;\n  height: 500px;\n  padding-top: 47px;\n}\n\n.hereDog{\n  display: block;\n  color: #000000;\n  font-family: \"Raleway\", sans-serif;\n  font-weight: 300;\n  font-size: 40px;\n  padding-bottom: 30px;\n\n\n}\n\n.mainPupIcon{\n  border-radius: 50%;\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  border-color:  #3F8DA8;\n  border-style: solid;\n  border-width: 5px;\n}\n\n.whatAreDogs {\n  font-family: \"Raleway\", sans-serif;\n  text-align: center;\n  color: #3F8DA8;\n  background-color: #FFFFFF;\n  display: flex;\n  justify-content: center;\n  flex-direction: column-reverse;\n  width: 128px;\n  height: 30px;\n  border-color: #3F8DA8;\n  border-style: solid;\n  border-width: 5px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 25px;\n\n}\n\n\n.parentDiv {\n  margin-top: -130px;\n  z-index: 10;\n}\n\n.lowerSection {\n  margin-top: 150px;\n  text-align: center;\n}\n\n.indPups{\n  display: inline-block;\n  position: relative;\n  margin-top: 10px;\n  max-width: 540px;\n\n}\n.headingLowerSection{\n  display: block;\n  font-family: \"Raleway\", sans-serif;\n  font-size: 30px;\n  font-weight: 200;\n  margin-top: 45px;\n  margin-bottom: 28px;\n\n}\n.lowerSectionPup{\n\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  border-color: #3F8DA8;\n  border-style: solid;\n  border-width: 5px;\n  border-radius: 50%;\n  width: 179px;\n}\n\n.lowerDiscription{\n  font-family: \"Raleway\", sans-serif;\n}\n.lowerButton{\n  margin-top: 100px;\n  background-color: #FFFFFF;\n  color: #3F8DA8;\n  width: 128px;\n  height: 30px;\n  border-color: #3F8DA8;\n  border-style: solid;\n  border-width: 5px;\n  text-align: center;\n  display: flex;\n  justify-content: center;\n  flex-direction: column-reverse;\n  margin-right: auto;\n  margin-left: auto;\n  font-size: larger;\n}\n\n.bottomSection{\n  margin-top: 50px;\n  text-align: center;\n  background-color: #3F8DA8;\n}\n.learnAboutDogsOnlineSection{\n  display: block;\n  padding-top: 18px;\n  font-family: \"Raleway\", sans-serif;\n  color: #FFFFFF;\n  font-size: 25px;\n  font-weight: 100;\n\n}\n.sMIG{\n  display: inline-block;\n  padding-top: 37px;\n\n}\n.twitter{\n  padding-left: 47px;\n  padding-right: 47px;\n}\n.instagram{\n  padding-right: 47px;\n}\n\n.gitHubLink{\n  display: block;\n  font-family: \"Raleway\", sans-serif;\n  color: #F9FCFC;\n  text-decoration: underline;\n  font-size: 25px;\n  padding-top: 25px;\n\n}\n.spacer {\n  display: block;\nheight: 50px;\n}\n\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -508,13 +672,10 @@ ___CSS_LOADER_EXPORT___.push([module.id, `:root {
   --secondary-accent-color: #92E0E5;
   --main-text-color: #555555;
   --secondary-text-color: #4D93AE;
-  --triary-text-color: #FFFFFF;
-
-
 }
 
 
-`, "",{"version":3,"sources":["webpack://./src/css/variables.css"],"names":[],"mappings":"AAAA;EACE,4BAA4B;EAC5B,iCAAiC;EACjC,0BAA0B;EAC1B,+BAA+B;EAC/B,4BAA4B;;;AAG9B","sourcesContent":[":root {\n  --main-accent-color: #3F8DA8;\n  --secondary-accent-color: #92E0E5;\n  --main-text-color: #555555;\n  --secondary-text-color: #4D93AE;\n  --triary-text-color: #FFFFFF;\n\n\n}\n\n\n"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./src/css/variables.css"],"names":[],"mappings":"AAAA;EACE,4BAA4B;EAC5B,iCAAiC;EACjC,0BAA0B;EAC1B,+BAA+B;AACjC","sourcesContent":[":root {\n  --main-accent-color: #3F8DA8;\n  --secondary-accent-color: #92E0E5;\n  --main-text-color: #555555;\n  --secondary-text-color: #4D93AE;\n}\n\n\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
