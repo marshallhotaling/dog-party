@@ -38,53 +38,51 @@ body {
 
 .dogIcon {
   width: 30px;
-  margin: 8px;
+  margin: 10px;
+  margin-left: 5px;
   float: left;
 }
 
 .options{
-  font-family: ;
+  color: #FFFFFF;
+  font-family: "Raleway", sans-serif;
   position: relative;
   float: right;
   margin-right: 50px;
-  margin-top: 10px;
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 20px;
 }
 
-.lowerSection {
-  margin-top: 50px;
-  text-align: center;
-}
+
 
 .how{
-  margin-right: 20px;
 }
 
 .what{
-
+margin-left: 30px;
+  margin-right: 30px;
 }
 
 .facts{
-  margin-left: 20px;
 }
-
 
 .mainPup{
   background: url('../../dist/images/park.jpg') center/cover;
   text-align: center;
   height: 500px;
-  margin-top: ;
+  padding-top: 47px;
 }
-.whatAreDogs {
-  display: block;
-  width: 200px;
-  height: 35px;
-  background-color: var(--triary-text-color);
-  border-color: green;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .hereDog{
   display: block;
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  padding-bottom: 30px;
+
+
 }
 
 .mainPupIcon{
@@ -92,27 +90,88 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-color:  #3F8DA8;
+  border-style: solid;
+  border-width: 5px;
 }
 
-.howPup{
+.whatAreDogs {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: #3F8DA8;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  width: 128px;
+  height: 30px;
+  border-color: #3F8DA8;
+  border-style: solid;
+  border-width: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+
+}
+
+
+.parentDiv {
+  margin-top: -130px;
+  z-index: 10;
+}
+
+.lowerSection {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.indPups{
   display: inline-block;
   position: relative;
   margin-top: 10px;
+  max-width: 540px;
+
 }
-.howLowerSection{
+.headingLowerSection{
   display: block;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+  margin-top: 45px;
+  margin-bottom: 28px;
+
 }
-.howPupIcon{
+.lowerSectionPup{
+
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-color: #3F8DA8;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 50%;
+  width: 179px;
 }
-.howDiscription{
+
+.lowerDiscription{
+  font-family: "Raleway", sans-serif;
+}
+.lowerButton{
+  margin-top: 100px;
+  background-color: #FFFFFF;
+  color: #3F8DA8;
+  width: 128px;
+  height: 30px;
+  border-color: #3F8DA8;
+  border-style: solid;
+  border-width: 5px;
   text-align: center;
-  display: block;
-}
-.howButton{
-  display: block;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: larger;
 }
 
 .bottomSection{
@@ -122,16 +181,37 @@ body {
 }
 .learnAboutDogsOnlineSection{
   display: block;
+  padding-top: 18px;
+  font-family: "Raleway", sans-serif;
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: 100;
+
 }
 .sMIG{
   display: inline-block;
+  padding-top: 37px;
+
+}
+.twitter{
+  padding-left: 47px;
+  padding-right: 47px;
+}
+.instagram{
+  padding-right: 47px;
+}
+
+.gitHubLink{
+  display: block;
+  font-family: "Raleway", sans-serif;
+  color: #F9FCFC;
+  text-decoration: underline;
+  font-size: 25px;
+  padding-top: 25px;
+
 }
 .spacer {
   display: block;
 height: 50px;
 }
-.parentDiv {
-  background-color: var(--triary-text-color);
-  margin-top: -130px;
-  z-index: 10;
-}
+
